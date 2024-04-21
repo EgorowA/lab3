@@ -1,0 +1,18 @@
+
+table,th,td{
+    border: 1px solid grey;
+} 
+tr > td:last-child{
+    
+}
+tr:first-child td{
+    text-align: center;
+}
+th,td{
+    padding:2px;
+    text-align: start;
+}
+caption{
+    font-size:20px;
+    color:blue;
+}
