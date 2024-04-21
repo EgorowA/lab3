@@ -17,24 +17,24 @@
             <tr>
                 <td>Name</td>
                 <td>
-                    <input type="text" placeholder="Your name">
+                    <input required minlength="3" maxlength="50" type="text" placeholder="Your name">
                 </td>
             </tr>
             <tr>
                 <td>Pizza Topping</td>
                 <td>
-                    <input id="supreme" name="pizza" type="radio">
+                    <input required id="supreme" name="pizza" type="radio">
                     <label for="supreme">Supreme</label><br>
-                    <input id="vegetarian" name="pizza" type="radio">
+                    <input required id="vegetarian" name="pizza" type="radio">
                     <label for="vegetarian">Vegetarian</label><br>
-                    <input id="hawaiian" name="pizza" type="radio">
+                    <input required id="hawaiian" name="pizza" type="radio">
                     <label for="hawaiian">Hawaiian</label><br>
                 </td>
             </tr>
             <tr>
                 <td>Pizza Sauce</td>
                 <td>
-                    <select name="product">
+                    <select required name="product">
                         <option value="Tomato">Tomato</option>
                         <option value="Cheese">Cheese</option>
                         <option value="Cucumber">Cucumber</option>
@@ -51,8 +51,8 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="2">Delivery Instructions: <br>
-                    <textarea placeholder="Write text" cols="54" rows="3"></textarea>
+                <td colspan="2" >Delivery Instructions: <br>
+                    <textarea required placeholder="Write text" cols="54" rows="3"></textarea>
                 </td>
             </tr>
             <tr>
